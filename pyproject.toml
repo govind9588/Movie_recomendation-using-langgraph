@@ -1,0 +1,16 @@
+[project]
+name = "practice1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "gradio>=5.46.1",
+    "grandalf>=0.8",
+    "ipython>=9.5.0",
+    "langchain>=0.3.27",
+    "langchain-experimental>=0.3.4",
+    "langchain-google-genai>=2.1.12",
+    "langgraph>=0.6.7",
+    "streamlit>=1.49.1",
+]
