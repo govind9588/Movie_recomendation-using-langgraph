@@ -45,7 +45,7 @@ def movie_tool(year: str, count: int = 5, genre: str = None) -> dict:
     llm = ChatGoogleGenerativeAI(
         model="gemini-2.5-flash",
         temperature=0.7,
-        google_api_key="AIzaSyDGcDBJjKJKfWRlkAzM_Gfk54MbC0fW3QM"
+        google_api_key="dummy"
     )
 
     prompt = f"""
